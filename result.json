@@ -1,0 +1,120 @@
+{
+    "tests": [
+        {
+            "name": "test_6_5 (tests.grade_assignments.GradeAssignment)",
+            "score": 0.0,
+            "max_score": 0.0,
+            "status": "passed",
+            "output": "\nThis problem will be graded manually. This is just for answer printing\n[Relevant Text Cells]\nMarkdown Cell 58:\n##### ***6.5 Compare the clustering results from PCA and t-SNE. Which method\nseems to provide better separation of clusters? (1 pts)***  ANSWER STARTING HERE\nBased on the clustering visualizations:  PCA Results: The clusters are somewhat\nseparated, but there is overlap between some groups. PCA preserves the global\nstructure of the data, which can be useful for capturing broader groupings.\nHowever, it may not excel in distinguishing tightly grouped clusters.  t-SNE\nResults: The clusters appear more distinct and separated compared to the PCA\nplot. t-SNE excels in preserving local relationships, which helps in better\nvisualizing smaller, compact clusters.  Conclusion: t-SNE provides better\nseparation of clusters in this case as it highlights local patterns effectively,\nmaking it easier to identify distinct groupings in complex datasets.\n----------------------------------------\nMarkdown Cell 59:\n# Your analysis here\n----------------------------------------\nMarkdown Cell 60:\n**You have been promoted!!**  **You are now one of the consulting company's\nelite employees! \ud83c\udf8a\ud83c\udf89\ud83e\udd42\ud83e\udd73**  ![](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.g\nif?cid=790b76111hlwamin05rcv1ujslgjh5o49haj07h4wpuvwkgz&ep=v1_gifs_search&rid=gi\nphy.gif&ct=g)\n----------------------------------------\n",
+            "number": "6.5"
+        },
+        {
+            "name": "test_7_2 (tests.grade_assignments.GradeAssignment)",
+            "score": 2.0,
+            "max_score": 2.0,
+            "status": "passed",
+            "output": "\nCell Located Properly\nCorrelation numbers found:  []\nFeatures found:  set()\nData exists?  False\nData in range?  False\nFeature List Correct?  False\nRubric (Data exists & data in range):  False\nBest figure found:  {'fig_index': 11, 'ax_index': 0, 'figure_title': 'No title', 'axis_title': 'Feature Correlation Matrix with Rating', 'x_label': '', 'y_label': '', 'matrix_data': array([[ 1.        ,  0.19289466,  0.11262157,  0.12151244,  0.24224042,\n         0.21432579, -0.11716201, -0.27686132,  0.12382772],\n       [ 0.19289466,  1.        ,  0.53166415,  0.4683286 ,  0.45250832,\n         0.91630061,  0.07191308, -0.00714479,  0.51513854],\n       [ 0.11262157,  0.53166415,  1.        ,  0.4201907 ,  0.43944558,\n         0.74502573,  0.04320997, -0.01585818,  0.51994228],\n       [ 0.12151244,  0.4683286 ,  0.4201907 ,  1.        ,  0.30885563,\n         0.65300707,  0.035175  , -0.07150963,  0.40915844],\n       [ 0.24224042,  0.45250832,  0.43944558,  0.30885563,  1.        ,\n         0.54541129, -0.06999009, -0.08117014,  0.66684808],\n       [ 0.21432579,  0.91630061,  0.74502573,  0.65300707,  0.54541129,\n         1.        ,  0.07004753, -0.02240265,  0.62678189],\n       [-0.11716201,  0.07191308,  0.04320997,  0.035175  , -0.06999009,\n         0.07004753,  1.        ,  0.32097792,  0.07817898],\n       [-0.27686132, -0.00714479, -0.01585818, -0.07150963, -0.08117014,\n        -0.02240265,  0.32097792,  1.        , -0.00553622],\n       [ 0.12382772,  0.51513854,  0.51994228,  0.40915844,  0.66684808,\n         0.62678189,  0.07817898, -0.00553622,  1.        ]]), 'x_labels': ['pokemon_id', 'base_attack', 'base_defense', 'base_stamina', 'distance', 'max_cp', 'attack_probability', 'dodge_probability', 'rating'], 'y_labels': ['pokemon_id', 'base_attack', 'base_defense', 'base_stamina', 'distance', 'max_cp', 'attack_probability', 'dodge_probability', 'rating']}\nFigure/Axis Indices: 11 0\nFeatures: ['pokemon_id', 'base_attack', 'base_defense', 'base_stamina', 'distance', 'max_cp', 'attack_probability', 'dodge_probability', 'rating']\nData:\n [[ 1.          0.19289466  0.11262157  0.12151244  0.24224042  0.21432579\n  -0.11716201 -0.27686132  0.12382772]\n [ 0.19289466  1.          0.53166415  0.4683286   0.45250832  0.91630061\n   0.07191308 -0.00714479  0.51513854]\n [ 0.11262157  0.53166415  1.          0.4201907   0.43944558  0.74502573\n   0.04320997 -0.01585818  0.51994228]\n [ 0.12151244  0.4683286   0.4201907   1.          0.30885563  0.65300707\n   0.035175   -0.07150963  0.40915844]\n [ 0.24224042  0.45250832  0.43944558  0.30885563  1.          0.54541129\n  -0.06999009 -0.08117014  0.66684808]\n [ 0.21432579  0.91630061  0.74502573  0.65300707  0.54541129  1.\n   0.07004753 -0.02240265  0.62678189]\n [-0.11716201  0.07191308  0.04320997  0.035175   -0.06999009  0.07004753\n   1.          0.32097792  0.07817898]\n [-0.27686132 -0.00714479 -0.01585818 -0.07150963 -0.08117014 -0.02240265\n   0.32097792  1.         -0.00553622]\n [ 0.12382772  0.51513854  0.51994228  0.40915844  0.66684808  0.62678189\n   0.07817898 -0.00553622  1.        ]]\nRubric 1: Data in unit range?  True\nRubric 2: Feature list correct?  True\nScore from output:  0\nScore from figure:  2.0\nFinal Score (Max):  2.0\n",
+            "number": "7.2"
+        },
+        {
+            "name": "test_df (tests.grade_assignments.GradeAssignment)",
+            "score": 1.0,
+            "max_score": 1.0,
+            "status": "passed",
+            "output": "\nFound df:  True\nFound shape values:  True\nFound cols:  True\n",
+            "number": "1.2"
+        },
+        {
+            "name": "test_extracted_df (tests.grade_assignments.GradeAssignment)",
+            "score": 1.0,
+            "max_score": 1.0,
+            "status": "passed",
+            "output": "\nFeature is present.\nFeature is present.\nFeature is present.\nFeature is present.\nA 5th feature is NOT present. Good!\n",
+            "number": "6.2.1"
+        },
+        {
+            "name": "test_feature (tests.grade_assignments.GradeAssignment)",
+            "score": 10.0,
+            "max_score": 10.0,
+            "status": "passed",
+            "output": "\n1st feature found: True\n2nd feature found: True\n3rd feature found: True\n4th feature found: True\n",
+            "number": "5.1"
+        },
+        {
+            "name": "test_kmeans (tests.grade_assignments.GradeAssignment)",
+            "score": 3.0,
+            "max_score": 3.0,
+            "status": "passed",
+            "output": "\ncheck #1\ncheck #2\ncheck #3\ncheck #4\ncheck #5\ncheck #6\napply_kmeans function implementation correct\nLabels have correct length\n",
+            "number": "6.4"
+        },
+        {
+            "name": "test_load_model (tests.grade_assignments.GradeAssignment)",
+            "score": 4.0,
+            "max_score": 4.0,
+            "status": "passed",
+            "output": "\nFound model 1: True\nFound model 2: True\nFound model 3: True\nFound model 4: True\n",
+            "number": "3.1"
+        },
+        {
+            "name": "test_model_report (tests.grade_assignments.GradeAssignment)",
+            "score": 6.0,
+            "max_score": 6.0,
+            "status": "passed",
+            "output": "\nK-Nearest Neighbors has been fitted.\nDecision Tree has been fitted.\nLogistic Regression has been fitted.\nRandom Forest has been fitted.\nModel precision: True True False True True\n",
+            "number": "4.1"
+        },
+        {
+            "name": "test_normalize_df (tests.grade_assignments.GradeAssignment)",
+            "score": 1.0,
+            "max_score": 1.0,
+            "status": "passed",
+            "output": "\nCongrat! Valid X_train_scaled_cell and X_test_scaled_cell...\n",
+            "number": "6.2.2"
+        },
+        {
+            "name": "test_output (tests.grade_assignments.GradeAssignment)",
+            "score": 3.0,
+            "max_score": 3.0,
+            "status": "passed",
+            "output": "\nFound shape 0:  True\nFound shape 1:  True\ntyp_item is correct?  True\ntyp_item is correct?  True\ntyp_item is correct?  True\ntyp_item is correct?  True\ntyp_item is correct?  True\nrarity_item is correct?  True\n",
+            "number": "1.3"
+        },
+        {
+            "name": "test_pca (tests.grade_assignments.GradeAssignment)",
+            "score": 2.5,
+            "max_score": 2.5,
+            "status": "passed",
+            "output": "\nX_pca shape correct\npca used\n",
+            "number": "6.3.1"
+        },
+        {
+            "name": "test_preprocess (tests.grade_assignments.GradeAssignment)",
+            "score": 3,
+            "max_score": 3.0,
+            "status": "passed",
+            "output": "\nFound missing_data:  True\nFound any null:  False\nFound missing_data correct?  True\n",
+            "number": "2.1"
+        },
+        {
+            "name": "test_split (tests.grade_assignments.GradeAssignment)",
+            "score": 6.0,
+            "max_score": 6.0,
+            "status": "passed",
+            "output": "\nX shape and processed: True\ny shape and processed: True\nX_train shape: True\nX_test shape: True\ny_train shape: True\ny_test shape: True\n[ 2.64798535e-17 -2.09632174e-16  5.29597070e-17 -5.29597070e-17\n  6.17863248e-17 -5.73730159e-17  1.61085775e-16 -1.27985959e-16\n -1.32399268e-17 -1.32399268e-17  3.81751221e-16  5.85866759e-16\n  7.73432388e-16 -3.53064713e-17 -2.20665446e-17 -8.38528694e-17\n -1.76532357e-17  8.82661784e-18  4.85463981e-17] [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.] 0.001766950597127443 0.9666091032154349\nX_train_scaled: True\nX_test_scaled: True\n",
+            "number": "2.2"
+        },
+        {
+            "name": "test_tsne (tests.grade_assignments.GradeAssignment)",
+            "score": 2.5,
+            "max_score": 2.5,
+            "status": "passed",
+            "output": "\nX_tsne shape correct\ntsne used\n",
+            "number": "6.3.2"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "34.84",
+    "score": 45.0
+}
